@@ -22,6 +22,18 @@ function MyApp({ Component, pageProps }) {
   <SSRProvider>
     <ThemeProvider theme={theme === 'dark' ? darkTheme : lightTheme}>
       <GlobalStyles />
+
+      <meta charset="utf-8" />
+      <title>Brainly Alter</title>
+      <meta name="description" content="Un-Official Brainly wrapper, no ads, and no limit"/>
+      <meta name="image" content="https://ik.imagekit.io/maruyasa/brainly-alter__rUgHbmbE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654053284892"/>
+      <meta itemProp="name" content="Brainly Alter" />
+      <meta itemProp="description" content="Un-Official Brainly wrapper, no ads, and no limit"/>
+      <meta itemProp="image" content="https://ik.imagekit.io/maruyasa/brainly-alter__rUgHbmbE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654053284892"/>
+      <meta name="og:title" content="Brainly Alter"/>
+      <meta name="og:description" content="Un-Official Brainly wrapper, no ads, and no limit"/>
+      <meta name="og:type" content="website" />
+
       <NavbarComponent themeToggler={themeToggler} theme={theme} />
       <Component {...pageProps} />
       <div className="mt-5 row p-3 justify-content-center text-center">
